@@ -317,6 +317,9 @@ footer {
 		flex: 0 0 auto;
 		flex-flow: row nowrap;
 		height: auto;
+
+		/* 수정된 스타일 */
+        width: 250px;
 	}
 
 	.sidebar-nav {
