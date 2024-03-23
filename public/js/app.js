@@ -4,6 +4,7 @@
     /* Sidebar height set */
     $sidebarStyles = $('.sidebar').attr('style') || "";
     $sidebarStyles += ' min-height: ' + $(document).height() + 'px;';
+    $sidebarStyles += ' width: ' + ($(document).width() * 0.25) + 'px;'; // 문서의 너비의 25%로 설정합니다.
     $('.sidebar').attr('style', $sidebarStyles);
 
     /* Secondary contact links */
