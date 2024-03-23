@@ -18,9 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "<img src='SuBeenLee_Picture.jpg' alt='SuBeen Lee' style='border-radius: 50%; width: 100px; height: 100px;'> SuBeen Lee"
+title: SuBeen Lee
 email: leesb7426@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
+  "<img src="SuBeenLee_Picture.jpg" alt="Description Image" style="border-radius: 50%; width: 200px; height: 200px;">"
+  <br>
   Hello. I'm SuBeen Lee, a Ph.D. student at Sungkyunkwan University in South Korea.
   I am a member of Visual Computing LAB advised by Prof. Jae-Pil Heo.
 # baseurl: "/" # the subpath of your site, e.g. /blog
