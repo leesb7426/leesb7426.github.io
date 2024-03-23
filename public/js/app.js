@@ -37,7 +37,4 @@
   // run init on document ready
   $(document).ready(init);
 
-  // Add CSS style for sidebar width
-  $('<style>.sidebar { width: 30%; float: left; }</style>').appendTo('head');
-
 })(jQuery);
