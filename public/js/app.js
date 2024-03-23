@@ -1,9 +1,6 @@
 (function($) {
 
  function init() {
-    /* Sidebar width set */
-    $('.sidebar').css('width', '30%'); // 사이드바의 가로 길이를 30%로 설정
- 
     /* Sidebar height set */
     $sidebarStyles = $('.sidebar').attr('style') || "";
     $sidebarStyles += ' min-height: ' + $(document).height() + 'px;';
@@ -39,5 +36,8 @@
 
   // run init on document ready
   $(document).ready(init);
+
+  // Add CSS style for sidebar width
+  $('<style>.sidebar { width: 30%; float: left; }</style>').appendTo('head');
 
 })(jQuery);
