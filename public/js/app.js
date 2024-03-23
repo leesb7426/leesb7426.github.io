@@ -1,10 +1,12 @@
 (function($) {
 
  function init() {
+    /* Sidebar width set */
+    $('.sidebar').css('width', '30%'); // 사이드바의 가로 길이를 30%로 설정
+ 
     /* Sidebar height set */
     $sidebarStyles = $('.sidebar').attr('style') || "";
     $sidebarStyles += ' min-height: ' + $(document).height() + 'px;';
-    $sidebarStyles += ' width: 1000px;'; // 사이드바의 가로 길이 설정
     $('.sidebar').attr('style', $sidebarStyles);
 
     /* Secondary contact links */
